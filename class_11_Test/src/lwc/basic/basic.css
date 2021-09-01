@@ -1,0 +1,11 @@
+/**
+ */
+
+:host {
+    display: block;
+    background-color: white;
+    padding: 3px;
+}
+div {
+    font-size: 12px;
+}

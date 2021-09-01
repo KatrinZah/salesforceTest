@@ -1,0 +1,23 @@
+<!--
+ -->
+
+<!-- Mydiary -->
+<template>
+<!--    <lightning-input label="Diary" name="diary"-->
+<!--                     onchange={handleChange}>-->
+<!--    </lightning-input>-->
+
+<!--    <c-name-component name={diary}-->
+<!--                      property1={diary}-->
+<!--                      property2={diary}-->
+<!--    >-->
+<!--    </c-name-component>-->
+
+    <template for:each={arr} for:item="myitem">
+        <div key={myitem}>
+            <c-note innertext={myitem}></c-note>
+
+        </div>
+
+    </template>
+</template>

@@ -1,0 +1,19 @@
+<!-- Example 2 -->
+<template>
+    <lightning-input label="Name" name="name"
+                     onchange={handleChange}>
+    </lightning-input>
+
+    <c-name-component name={name}
+                      property1={name}
+                      property2={name}
+                      >
+    </c-name-component>
+
+    <template for:each={arr} for:item="item">
+        <div key={myitem}>
+            {myitem}
+        </div>
+
+    </template>
+</template>

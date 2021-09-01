@@ -1,0 +1,9 @@
+/**
+ */
+
+:host {
+    display: block;
+    background-color: #517dd4;
+    padding: 3px;
+    min-height: 1ch;
+}
